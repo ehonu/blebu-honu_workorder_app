@@ -1,6 +1,6 @@
-# honu
+# Blebu-Honu
 
-A new Flutter project.
+A new Flutter project intended to be used as a workorder app. To take pictures,get location coordinates and to send over a server
 
 ## Getting Started
 
