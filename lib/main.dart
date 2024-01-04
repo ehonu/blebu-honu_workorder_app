@@ -37,7 +37,7 @@ class _LoginPage extends State<LoginPage>{
   var _email = TextEditingController();
 
   startLogin() async {
-    String apiurl = "http://serverIP/login.php";
+    String apiurl = "https://www.cyubic.com/login.php";
     //print(username);
     var response = await http.post(Uri.parse(apiurl), body: {
       'username': username,
@@ -481,8 +481,8 @@ class tss extends State<secondPage> {
   }
 
   Future  saveImage( data2) async {
-    var uri = Uri.parse('http://ServerIP/honu.php');
-    //Enter server IP here
+    var uri = Uri.parse('https://www.cyubic.com/honu.php');
+    //server IP here
 
     for (int i = 0; i < data2.length; i++) {
       //for(int i=0; i < data2.length; i++){
