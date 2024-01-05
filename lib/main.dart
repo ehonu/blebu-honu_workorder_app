@@ -37,7 +37,7 @@ class _LoginPage extends State<LoginPage>{
   var _email = TextEditingController();
 
   startLogin() async {
-    String apiurl = "https://www.cyubic.com/login.php";
+    String apiurl = "https://www.cyubic.com/dashboard/login.php";
     //print(username);
     var response = await http.post(Uri.parse(apiurl), body: {
       'username': username,
